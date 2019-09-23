@@ -27,7 +27,7 @@
 <target name="build" depends="compile">
 <mkdir dir="buildz">
 <javac srcdir="src" destdir="buildz" includeatruntime="false">
-<classpath refid="classpath.test">
+<classpath refid="classpath.test"/>
 </target>
 
 
