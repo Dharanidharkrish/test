@@ -39,7 +39,7 @@
 	 <pathelement location="builds"/>
 	</classpath>
 	<batchtest>
-	 <fileset dir="src" includes"**/*Test.java" />
+	 <fileset dir="src" includes="**/*Test.java" />
 	</batchtest>
 </target>
 <!-- Clean -->
