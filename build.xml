@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project name="Devops" basedir=".">
 
+<path id=classpath.base>
+<pathelement location="/lib/org.junit.jupiter.api">
+<pathelement location="/lib/org.junit.jupiter.api_5.4.0.v20190212-2109">
+<pathelement location="/lib/org.junit.jupiter.api">
 
+</path>
 <!--including the required jar files-->
-<path id="classpath.base"/>
+
 <path id="classpath.test">
 <fileset dir="lib">
     <include name="*.jar"> 
@@ -44,6 +49,10 @@
 	<classpath>
 	 <path refid="classpath.test"/>
 	 <pathelement location="build"/>
+	</classpath>
+	<classpath>
+	 <path refid="classpath.base"/>
+	
 	</classpath>
 	<batchtest>
 	 <fileset dir="src" includes="**/*Test.java" />
