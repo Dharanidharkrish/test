@@ -3,6 +3,7 @@
 
 
 <!--including the required jar files-->
+<path id="classpath.base">
 <path id="classpath.test">
 <fileset dir="lib">
     <include name="*.jar"> 
@@ -19,7 +20,7 @@
  <target name="compile">
    <mkdir dir="build"/> 
    	<javac srcdir="src" destdir="build" >
-   	 <classpath refid="classpath.compile"/> 
+   	 <classpath refid="classpath.base"/> 
 	</javac>
  </target>
 
