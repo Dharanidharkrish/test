@@ -40,6 +40,7 @@
 <mkdir dir="build"/>
 <javac srcdir="src" destdir="build" includeantruntime="false" />
 <classpath refid="classpath.test"/>
+<classpath refid="classpath.base"/>
 </target>
 
 
@@ -50,10 +51,7 @@
 	 <path refid="classpath.test"/>
 	 <pathelement location="build"/>
 	</classpath>
-	<classpath>
-	 <path refid="classpath.base"/>
-	
-	</classpath>
+	<classpath refid="classpath.base"/>
 	<batchtest>
 	 <fileset dir="src" includes="**/*Test.java" />
 	</batchtest>
