@@ -26,7 +26,7 @@
 <!-- BUILD BLOCK -->
 <target name="build" depends="compile">
 <mkdir dir="buildz">
-<javac srcdir="src" destdir="buildz" includeatruntime="false">
+<javac srcdir="src" destdir="buildz" includeatruntime="false"/>
 <classpath refid="classpath.test"/>
 </target>
 
