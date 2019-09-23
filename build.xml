@@ -8,6 +8,8 @@
 <fileset dir="lib">
     <include name="*.jar"> 
 	</include>
+ <include name="*.api"> 
+	</include>
 </fileset>
 </path>
 
