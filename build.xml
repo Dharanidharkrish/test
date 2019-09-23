@@ -3,7 +3,7 @@
 
 
 <!--including the required jar files-->
-<path id="classpath.base">
+<path id="classpath.base"/>
 <path id="classpath.test">
 <fileset dir="lib">
     <include name="*.jar"> 
