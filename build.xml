@@ -41,6 +41,7 @@
 	<batchtest>
 	 <fileset dir="src" includes="**/*Test.java" />
 	</batchtest>
+	</junit>
 </target>
 <!-- Clean -->
 <target name="clean">
