@@ -2,5 +2,3 @@
 jdk:
     -openjdk8
 source: /lib/org.junit.jupiter.api.jar
-before_install:
-      -wget -P ./lib/org.junit.jupiter.api.jar
