@@ -16,12 +16,7 @@
 <target name="test" depends="run, clean"/>
 
 
-<dependency>
-  <groupId>org.junit</groupId>
-  <artifactId>junit</artifactId>
-  
-  
-</dependency>
+
 
 
 
