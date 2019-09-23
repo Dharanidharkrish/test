@@ -8,7 +8,7 @@
 <fileset dir="lib">
     <include name="*.jar"> 
 	</include>
- <include name="*.api"> 
+ <include name="org.junit.jupiter.api.jar"> 
 	</include>
 </fileset>
 </path>
