@@ -6,6 +6,7 @@
 <path id="classpath.test">
 <fileset dir="lib">
     <include name="*.jar"> 
+	</include>
 </fileset>
 </path>
 
