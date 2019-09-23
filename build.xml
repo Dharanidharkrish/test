@@ -17,7 +17,7 @@
 
 <!-- compile block-->
  <target name="compile">
-   <mkdir dir="builds"/> 
+   <mkdir dir="build"/> 
    	<javac srcdir="src" destdir="build" >
    	 <classpath refid="classpath.compile"/> 
 	</javac>
@@ -25,8 +25,8 @@
 
 <!-- BUILD BLOCK -->
 <target name="build" depends="compile">
-<mkdir dir="buildz"/>
-<javac srcdir="src" destdir="buildz" />
+<mkdir dir="build"/>
+<javac srcdir="src" destdir="build" />
 <classpath refid="classpath.test"/>
 </target>
 
@@ -36,7 +36,7 @@
    <junit printsummary="on" haltonfailure="yes">
 	<classpath>
 	 <path refid="classpath.test"/>
-	 <pathelement location="builds"/>
+	 <pathelement location="build"/>
 	</classpath>
 	<batchtest>
 	 <fileset dir="src" includes="**/*Test.java" />
