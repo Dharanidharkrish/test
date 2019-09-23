@@ -1,4 +1,4 @@
 ﻿language: java
 jdk:
     -openjdk8
-source: /lib/org.jupiter.junit.api.jar
+source: /lib/org.junit.jupiter.api.jar
