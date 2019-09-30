@@ -6,6 +6,6 @@ deploy:
     - provider: s3
       access_key_id: $AWS_ACCESS
       secret_access_key: $AWS_KEY
-      bucket: 'buckets1320'
+      bucket: 'buckets132'
       ##region: 'us-east-2'
       skip_cleanup: true
