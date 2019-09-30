@@ -1,4 +1,10 @@
 ﻿language: java
 jdk:
     -openjdk8
-source: ant build
+    
+deploy:
+    - provider: s3
+      access_key_id: $AWS_ACCESS
+      secret_access_key: $AWS_KEY
+      bucket: 'mytravis-testing'
+      skip_cleanup: true
